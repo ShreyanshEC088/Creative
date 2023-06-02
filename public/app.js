@@ -13,11 +13,11 @@ document.getElementById("button1").addEventListener("click",function(){
   set.push(email1);
   let pass1 = document.getElementById("chkpass").value;
   if (email1 !== "shreyanshmishra@gmail.com") {
-    alert("You are not registered!! Sign up, please.");
+    // alert("You are not registered!! Sign up, please.");
     result +="You are not registered!! Sign up, please."+" "; 
   }
   if (pass1.length <= 5) {
-    alert("Your password should contain at least 5 letters!");
+    // alert("Your password should contain at least 5 letters!");
     result +="Your password should contain at least 5 letters!"+" ";
   } else {
     var nm = 0;
@@ -33,12 +33,12 @@ document.getElementById("button1").addEventListener("click",function(){
       }
     }
     if (nm === 0 || wd === 0) {
-      alert("Please enter a password containing both letters and digits to have a strong password!");
+      // alert("Please enter a password containing both letters and digits to have a strong password!");
       result +="Please enter a password containing both letters and digits to have a strong password!"+" ";
     }
   }
-  // let realStr = `<p>result</p>`
-  // let finalRes = document.getElementById('wrongans');
-  // finalRes.innerHTML = realStr;
+  let realStr = `<p>${result} <br> <a href="/index"><button class="btn btn-primary" style="margin-left:15vw;">Try Again</button></a></p>`
+  let finalRes = document.getElementById('wrongans');
+  finalRes.innerHTML = realStr;
 })
 

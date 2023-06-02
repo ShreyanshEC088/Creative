@@ -63,6 +63,10 @@ h2{
 .form{
     padding:40px;
 }
+.warning{
+   background-color:rgba(80, 235, 246, 0.584);
+   /* border-radius:15px; */
+}
 input{
     height:50px;
     border-color:rgb(109, 60, 245)!important ;
