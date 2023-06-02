@@ -1,5 +1,6 @@
 body{
     margin:15px;
+    scroll-behavior: smooth;
 }
 #SignUp-pg{
     display:flex;
