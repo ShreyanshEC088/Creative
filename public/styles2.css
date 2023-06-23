@@ -149,6 +149,14 @@ p {
 }
 
 /* Design part */
+.btn123{
+    background-color: rgb(109, 60, 245) !important;
+    color: white !important;
+    border-radius: 25px !important;
+    height: 50px;
+    width: 180px;
+    margin-left:28vw;
+}
 .aabb {
     margin-bottom: 30px;
 }
@@ -157,7 +165,10 @@ p {
     display: flex;
     margin-bottom: 30px;
 }
-
+.gif {
+    width: 30px; /* Adjust the dimensions as per your GIF */
+    height: 30px;
+  }
 .design-pic {
     background-color: rgb(0, 0, 0);
     /* background-color: rgb(205, 151, 194); */
