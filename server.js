@@ -32,6 +32,9 @@ app.get("/forget",function(req,res){
 app.get("/otp",function(req,res){
     res.sendFile(__dirname + "/opt.html");
 });
+app.get("/explore",function(req,res){
+    res.sendFile(__dirname + "/explore.html");
+});
 app.listen(3000,function(req,res){
     console.log("Server is running at port 3000");
 });

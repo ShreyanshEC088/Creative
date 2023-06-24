@@ -1,0 +1,95 @@
+body {
+    margin-top: 20px;
+}
+.n-brand{
+    margin-right:65vw;
+}
+#designs {
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+}
+
+#my-image {
+    width: 80%;
+    height: 80%;
+    transition: transform 0.3s ease;
+}
+
+#my-image:hover {
+    transform: scale(0.5);
+}
+
+.card1 {
+    display: flex;
+    margin: 30px;
+    margin-left: 8vw;
+}
+
+.r1c1 {
+    flex: 1;
+    height: 250px;
+    width: 250px;
+}
+
+.r1c1 img {
+    height: 250px;
+    width: 250px;
+    background-color: black;
+    border-radius: 25px;
+}
+
+.r1c2 {
+    flex: 1;
+    height: 250px;
+    width: 250px;
+}
+
+.r1c2 img {
+    height: 250px;
+    width: 250px;
+    background-color: black;
+    border-radius: 25px;
+}
+
+.r1c3 {
+    flex: 1;
+    height: 250px;
+    width: 250px;
+}
+
+.r1c3 img {
+    height: 250px;
+    width: 250px;
+    background-color: black;
+    border-radius: 25px;
+}
+
+.r1c4 {
+    flex: 1;
+    height: 250px;
+    width: 250px;
+}
+
+.r1c4 img {
+    height: 250px;
+    width: 250px;
+    background-color: black;
+    border-radius: 25px;
+}
+.btn12 {
+    /* background-color: rgb(109, 60, 245) !important; */
+    /* color: white !important; */
+    color:black;
+    border-radius: 25px !important;
+    height: 50px;
+    width: 120px;
+}
+.names{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:-5vw;
+    font-family: 'Poppins', sans-serif;
+}
